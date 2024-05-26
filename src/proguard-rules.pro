@@ -1,7 +1,7 @@
 # Add any ProGuard configurations specific to this
 # extension here.
 
--keep public class com.aemo.fallingview.FallingView {
+-keep public class me.aemo.fallingview.FallingView {
     public *;
  }
 -keeppackagenames gnu.kawa**, gnu.expr**
@@ -10,6 +10,6 @@
 -allowaccessmodification
 -mergeinterfacesaggressively
 
--repackageclasses 'com/aemo/fallingview/repack'
+-repackageclasses 'me/aemo/fallingview/repack'
 -flattenpackagehierarchy
 -dontpreverify
