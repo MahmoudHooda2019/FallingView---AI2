@@ -370,15 +370,4 @@ public class FallingView extends AndroidNonvisibleComponent {
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
 }
